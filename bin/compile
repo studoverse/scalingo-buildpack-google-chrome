@@ -91,7 +91,7 @@ case "${STACK}" in
     "
     ;;
   *)
-    error "STACK must be 'heroku-18' or 'heroku-20', not '${STACK}'."
+    error "STACK must be 'scalingo-20', not '${STACK}'."
 esac
 
 if [ ! -f $CACHE_DIR/PURGED_CACHE_V1 ]; then
